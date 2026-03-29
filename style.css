@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding:0;
+}
+#heading{
+    background: #343437;
+    font-size: 4rem;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+}
+.choice{
+    height: 290px;
+    width: 290px;
+    border-radius: 50%;
+    margin-top: 10vh;
+}
+#snake{
+    background-image: url("snake.png");
+    background-size:cover;
+}
+#water{
+    background-image: url("water.png");
+    background-size: cover;
+}
+#gun{
+    background-image: url("gun.png");
+    background-size: cover;
+}
+.scoreBoard{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    font-size: 4rem;
+    gap: 5vw;
+    font-weight: bolder;
+}
+#userScore{
+    margin-left: 50px;
+}
+#compScore{
+    margin-left: 4rem;
+}
+#msgContainer{
+    display: flex;
+    font-size: 2rem;
+    margin-top: 5rem;
+    font-weight: bold;
+    justify-content: center;
+}
+#msg{
+    display: inline;
+    background: gray;
+    padding: 3rem;
+    border-radius: 10%;
+}
+.choice:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  background: green;
+}
